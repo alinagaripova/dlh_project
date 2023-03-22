@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dlh_project/static/css/main.a975b966.css",
+    "main.js": "/dlh_project/static/js/main.102a84b3.js",
+    "static/media/computer.png": "/dlh_project/static/media/computer.a61ddb18d89e0ead5540.png",
+    "index.html": "/dlh_project/index.html",
+    "main.a975b966.css.map": "/dlh_project/static/css/main.a975b966.css.map",
+    "main.102a84b3.js.map": "/dlh_project/static/js/main.102a84b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a975b966.css",
+    "static/js/main.102a84b3.js"
+  ]
+}
