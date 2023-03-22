@@ -1,0 +1,19 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  &__accent {
+    color: #00ADEF;
+  }
+  &_light {
+    font-weight: 300;
+  }
+}
+
+@include media-breakpoint-up(md) { 
+  .title {
+    font-size: 70px;
+  }
+}

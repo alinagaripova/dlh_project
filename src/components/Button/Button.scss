@@ -1,0 +1,37 @@
+$primary: #00ADEF; 
+$color_black: #333333; 
+$color_white: #fff; 
+
+.btn {
+  min-width: 200px;
+  border-radius: 60px !important;
+  border: none !important;
+  font-size: 22px;
+  line-height: 30px;
+  &-primary {
+    font-weight: 500;
+    background: $primary !important;
+    &:hover {
+      border: none;
+      background: linear-gradient(271.97deg, #00ADEF -14.17%, #3DBFF0 48.54%, rgba(0, 173, 239, 0) 116.07%);
+      box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    }
+  }
+  &-outline-primary{
+    font-weight: 200;
+    background: $color_white;
+    color: $color_black;
+    border: 1px solid $primary;
+    &:hover {
+      box-shadow: 0px 3px 15px #b9eafc;
+      background-color: $color_white;
+      color: $color_black;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+  }
+}

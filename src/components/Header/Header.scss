@@ -1,0 +1,15 @@
+.header {
+  &__items {
+    .nav-link {
+      color: #333333;
+    }
+    .nav-link:hover, .nav-link:focus {
+      color: #00ADEF;
+      border-bottom: 1px solid #00ADEF;
+
+    }
+    a {
+      padding: 8px;
+    }
+  }
+}
