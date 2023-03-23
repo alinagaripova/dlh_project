@@ -8,7 +8,7 @@ function Layout({ children }) {
      <header>
       <Header />
      </header>
-     <main className="pt-md-3 pb-3 pb-md-5">
+     <main className="pt-3 pb-3 pb-md-5">
       {children}
      </main>
     </>

@@ -40,6 +40,14 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  body {
+    header {
+      display: none;
+    }
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

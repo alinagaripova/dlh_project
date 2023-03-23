@@ -1,32 +1,66 @@
 import React from 'react';
 import Title from '../../../Title';
 import Button from '../../../Button';
+import time from "../../../../assets/images/time.png";
+import dollar from "../../../../assets/images/dollar.png";
+import diagramm from "../../../../assets/images/diagramm.png";
 import './SectionOne.scss';
 
 const actions = ['collecting', 'processing', 'storing', 'usage'];
+const advantages = [
+  {
+    text: "take verified and accurate data at any time",
+    icon_url: time
+  },
+  {
+    text: "save on technical support and data scientists",
+    icon_url: dollar
+  },
+  {
+    text: "grow your revenue while using your data in the right way",
+    icon_url: diagramm
+  },
+];
 
 function SectionOne({ children }) {
   return (
-    <div className="section-one d-flex justify-content-around align-items-center flex-column flex-md-row">
-      <div className="section-one__text-part d-flex flex-column justify-content-between align-items-start order-2 order-md-1">
-        <Title>
-          simplify your data management with DLH
-        </Title>
-        <div>
-          DLH lets you automate the whole data management lifecycle.
-        </div>
-        <Button text="request a demo" />
-        <div className="actions d-flex">
-          {actions.map((item)=> (
-            <div key={item} className="action">
-              {item}
-            </div>
-          ))}
-        </div>
+    <>
+      <div className="section-one d-flex justify-content-between align-items-center flex-column flex-md-row">
+        <div className="section-one__text-part d-flex flex-column justify-content-between align-items-start order-2 order-md-1">
+          <Title>
+            simplify your data management with DLH
+          </Title>
+          <div className="small-title">
+            DLH lets you automate the whole data management lifecycle.
+          </div>
+          <Button text="request a demo" />
+          <div className="actions d-flex flex-wrap">
+            {actions.map((item)=> (
+              <div key={item} className="action">
+                {item}
+              </div>
+            ))}
+          </div>
 
+        </div>
+        <div className="section-one__image order-1 order-md-2"/>
       </div>
-      <div className="section-one__image order-1 order-md-2"/>
-    </div>
+      <div className="advantages d-flex justify-content-between align-items-center flex-wrap flex-md-nowrap">
+        {advantages.map(({ text, icon_url }) => (
+          <div className="advantage d-flex justify-content-between align-items-center">
+            <div 
+              className="advantage__icon"
+              style={{ 
+                backgroundImage: `url(${icon_url})`,
+                backgroundSize: "contain",
+                backgroundRepeat: "no-repeat",
+              }}
+            />
+            <div className="advantage__text">{text}</div>
+          </div>
+        ))}
+      </div>
+    </>
   );
 }
 

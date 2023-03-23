@@ -14,7 +14,9 @@
     }
   }
   &__text-part {
-    height: 100%;
+    &>div, &>button {
+      margin-bottom: 25px;
+    }
   }
   .actions {
     .action {
@@ -41,6 +43,17 @@
   }
 }
 
+.advantages {
+  .advantage {
+    margin-bottom: 16px;
+    &__icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 16px;
+    }
+  }
+}
+
 @include media-breakpoint-up(md) { 
   .section-one__image {
     height: 600px;
@@ -52,6 +65,17 @@
   .actions {
     .action {
       padding: 12px 20px;
+    }
+  }
+
+  .advantages {
+    .advantage {
+      &__icon {
+        width: 75px;
+        height: 75px;
+        margin-right: 16px;
+        margin-top: 12px;
+      }
     }
   }
 }
