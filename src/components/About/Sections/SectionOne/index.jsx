@@ -24,7 +24,7 @@ const advantages = [
 
 function SectionOne({ children }) {
   return (
-    <>
+    <div className="container">
       <div className="section-one d-flex justify-content-between align-items-center flex-column flex-md-row">
         <div className="section-one__text-part d-flex flex-column justify-content-between align-items-start order-2 order-md-1">
           <Title>
@@ -41,13 +41,12 @@ function SectionOne({ children }) {
               </div>
             ))}
           </div>
-
         </div>
         <div className="section-one__image order-1 order-md-2"/>
       </div>
       <div className="advantages d-flex justify-content-between align-items-center flex-wrap flex-md-nowrap">
         {advantages.map(({ text, icon_url }) => (
-          <div className="advantage d-flex justify-content-between align-items-center">
+          <div key={text} className="advantage d-flex justify-content-between align-items-center">
             <div 
               className="advantage__icon"
               style={{ 
@@ -60,7 +59,7 @@ function SectionOne({ children }) {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

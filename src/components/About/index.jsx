@@ -1,14 +1,18 @@
 import React from 'react';
+import Layout from '../Layout';
 import SectionOne from './Sections/SectionOne';
-import Button from '../Button';
+import SectionStack from './Sections/SectionStack';
 import './About.scss';
 
 
 function About({ children }) {
   return (
-    <div className="about-page container">
-      <SectionOne />
-    </div>
+    <Layout>
+      <div className="about-page">
+        <SectionOne />
+        <SectionStack />
+      </div>
+    </Layout>
   );
 }
 

@@ -1,0 +1,15 @@
+@import "../../../../../node_modules/bootstrap/scss/bootstrap";
+
+.section-stack {
+ .title {
+  margin-bottom: 28px;
+ }
+}
+
+@include media-breakpoint-up(md) { 
+  .section-stack {
+    .title {
+      margin-bottom: 60px;
+     }
+  }
+}

@@ -2,9 +2,9 @@ import React from 'react';
 import './Title.scss';
 
 
-function Title({ children }) {
+function Title({ children, className }) {
   return (
-    <div className="title">
+    <div className={`title ${className}`}>
       {children}
     </div>
   );
