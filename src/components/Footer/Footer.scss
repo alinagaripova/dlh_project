@@ -1,0 +1,30 @@
+.footer {
+  color: #FFFFFF;
+  height: 366px;
+  width: 100%;
+  padding: 20px 0 55px;
+
+  .rights {
+    font-size: 16px;
+  }
+
+  hr {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 72px 0 42px;
+    font-weight: 400;
+
+    .logo {
+      height: 40px;
+      width: 120px;
+    }
+
+    .email {
+      text-align: end;
+    }
+  }
+}

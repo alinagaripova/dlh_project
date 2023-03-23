@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.scss';
 
 
-function Button({ text, type }) {
+function Button({ text, type, className }) {
   let btnTypeClass;
   switch(type) {
     case 'outline':
@@ -13,7 +13,7 @@ function Button({ text, type }) {
       break;
   }
   return (
-      <button type="button" className={`btn ${btnTypeClass}`}>
+      <button type="button" className={`btn ${btnTypeClass} ${className}`}>
         {text}
       </button>
   );
