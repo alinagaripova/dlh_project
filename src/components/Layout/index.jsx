@@ -9,11 +9,11 @@ function Layout({ children }) {
       <header>
         <Header />
       </header>
-      <main className="pt-3 pb-3 pb-md-5">
+      <main className="pb-3 pb-md-5">
         {children}
       </main>
       <footer>
-        <Footer />
+        <Footer/>
       </footer>
     </>
   );

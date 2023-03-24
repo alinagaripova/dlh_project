@@ -33,6 +33,7 @@ body {
   main {
     flex: 1 0 auto;
     background: #F5F5F5;
+    padding-top: 24px;
   }
 
   .big-title {
@@ -72,15 +73,16 @@ body,.root,.App {
       font-weight: 300;
       font-size: 28px;
     }
+    main {
+      padding-top: 80px;
+    }
+
+    .container-custom {
+      margin-right: 0;
+      margin-left: calc(50vw - 350px);
+    }
   }
 }
-
- @media (min-width:768px){
-  .container-custom {
-    margin-right: 0;
-    margin-left: calc(50vw - 350px);
-  }
- }
 
 @media (max-width: 768px) {
   body {

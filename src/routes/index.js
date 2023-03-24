@@ -1,5 +1,6 @@
 import About from '../components/About';
 import Team from '../components/Team';
+import Cases from '../components/Cases';
 
 const routes = [
   {
@@ -22,7 +23,7 @@ const routes = [
   },
   {
     path: '/cases',
-    component: <></>,
+    component: Cases,
     exact: true,
     type: 'public',
   },
