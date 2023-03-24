@@ -4,6 +4,8 @@
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
+  line-height: 30px;
+  margin-bottom: 28px;
   &__accent {
     color: #00ADEF;
   }
@@ -15,5 +17,7 @@
 @include media-breakpoint-up(md) { 
   .title {
     font-size: 70px;
+    margin-bottom: 50px;
+    line-height: 80px;
   }
 }

@@ -5,7 +5,7 @@ import SectionStack from './Sections/SectionStack';
 import './About.scss';
 
 
-function About({ children }) {
+function About() {
   return (
     <Layout>
       <div className="about-page">
