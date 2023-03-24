@@ -1,0 +1,44 @@
+.not-found-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;  
+  background-image: url('../../assets/images/pattern.png');
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: right;
+
+  &__central {
+    width: 343px;
+    height: 165px;
+    border: 1px solid #00ADEF;
+    border-radius: 20px;
+    background: #FFFFFF;
+    margin-bottom: 24px;
+
+    .error {
+      color: #00ADEF;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .not-found-page {
+    &__central {
+      width: 790px;
+      height: 480px;
+
+      .error {
+        font-weight: 600;
+        font-size: 80px;
+      }
+
+      .error-text {
+        font-weight: 400;
+        font-size: 66px;
+      }
+    }
+  }
+}
+
