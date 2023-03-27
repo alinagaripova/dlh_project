@@ -1,4 +1,34 @@
 .case-card {
   background: #FFFFFF;
   border-radius: 20px;
+  padding: 12px;
+  height: 125px;
+
+  &__image {
+    width: 50%;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__content {
+    &_title {
+      font-weight: 300 !important;
+      color: #00ADEF;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .case-card {
+    width: calc(100% - 24px) !important;
+    padding: 28px;
+    height: 226px;
+
+    &:nth-child(odd){
+      margin-right: 24px;
+    }
+  }
 }

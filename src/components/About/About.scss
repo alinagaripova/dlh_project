@@ -1,0 +1,9 @@
+.about-page>div {
+  margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+  .about-page>div {
+    margin-bottom: 120px;
+  }
+}

@@ -25,7 +25,7 @@ const cases = [
   },
   {
     id: 2,
-    title: "Kazan State Technical University",
+    title: "kazan state technical university",
     image: kai,
     url: "/kai",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nihil qui unde architecto consequuntur temporibus odio fugiat, repellat ullam excepturi optio ipsam non esse voluptate saepe doloribus modi dignissimos reprehenderit.",

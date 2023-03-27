@@ -51,6 +51,11 @@ body,.root,.App {
   height: 100vh;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 @media (max-width:576px){
   .container-custom {
     margin-right: 0;
@@ -92,29 +97,30 @@ body,.root,.App {
   }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 @media (min-width:992px){
- .container-custom {
-   margin-right: 0;
-   margin-left: calc(50vw - 480px);
- }
+  body {
+    .container-custom {
+      margin-right: 0;
+      margin-left: calc(50vw - 480px);
+    }
+  }
 }
 
 @media (min-width:1200px){
- .container-custom {
-   margin-right: 0;
-   margin-left: calc(50vw - 570px);
- }
+  body {
+    .container-custom {
+      margin-right: 0;
+      margin-left: calc(50vw - 570px);
+    }
+  }
 }
 
 @media (min-width:1400px){
- .container-custom {
-   margin-right: 0;
-   margin-left: calc(50vw - 650px);
- }
+  body {
+    .container-custom {
+      margin-right: 0;
+      margin-left: calc(50vw - 650px);
+    }
+  }
 }
 
