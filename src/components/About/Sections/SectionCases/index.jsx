@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Title from '../../../Title';
+import Button from '../../../Button';
 import CaseCard from "../../../Cases/CaseCard";
 import cases from '../../../../data/cases';
 
@@ -14,6 +16,11 @@ function SectionVideo() {
         {cases.map((item) => (
           <CaseCard key={item.id} {...item} />
         ))}
+      </div>
+      <div className="d-flex justify-content-end">
+        <Link to="/cases">
+          <Button type="outline" text="explore more" />
+        </Link>
       </div>
     </div>
   );

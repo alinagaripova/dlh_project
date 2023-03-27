@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Logo from '../Logo';
 import './Header.scss';
 
@@ -22,7 +23,8 @@ const headerItems = [
   },
   {
     title: "contact us",
-    url: "/#contacts",
+    url: "/",
+    hash: "#footer"
   },
 ]
 
@@ -34,11 +36,21 @@ function Header() {
           <Logo/>
         </Link>
         <div className="header__items nav col-5 d-flex justify-content-between align-items-center">
-          {headerItems.map(({ title, url }) => (
-            <Link to={url} className="nav-link" key={title}>
-              {title}
-            </Link> 
-          ))}
+          {headerItems.map(({ title, url, hash }) => {
+            if(hash){
+              return (
+              <HashLink to={`${url}${hash}`} className="nav-link" key={title}>
+                {title}
+              </HashLink>
+              );
+            } else {
+              return (
+                <Link to={url} className="nav-link" key={title}>
+                  {title}
+                </Link> 
+              )
+            } 
+          })}
         </div>
         <div className="col-2 ms-auto">
           info@dlhlab.com

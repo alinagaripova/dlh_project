@@ -1,7 +1,5 @@
 import React from 'react';
 import Title from '../../../Title';
-import CaseCard from "../../../Cases/CaseCard";
-import cases from '../../../../data/cases';
 import './SectionVideo.scss';
 
 

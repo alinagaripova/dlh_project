@@ -12,7 +12,7 @@ function Layout({ children }) {
       <main className="pb-3 pb-md-5">
         {children}
       </main>
-      <footer>
+      <footer id={"footer"}>
         <Footer/>
       </footer>
     </>

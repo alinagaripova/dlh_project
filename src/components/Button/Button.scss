@@ -19,13 +19,16 @@ $color_white: #fff;
     }
   }
   &-outline-primary{
-    font-weight: 200;
+    font-family: 'Noto Sans' !important;
+    font-style: normal !important;
+    font-weight: 200 !important;
+    font-size: 22px;
     background: $color_white;
-    color: $color_black;
-    border: 1px solid $primary;
+    color: $color_black !important;
+    border: 1px solid $primary !important;
     &:hover {
       box-shadow: 0px 3px 15px #b9eafc;
-      background-color: $color_white;
+      background-color: $color_white !important;
       color: $color_black;
     }
   }
