@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
+import BurgerMenu from '../BurgerMenu';
 
 
 function Layout({ children }) {
@@ -15,6 +16,7 @@ function Layout({ children }) {
       <footer id={"footer"}>
         <Footer/>
       </footer>
+      <BurgerMenu />
     </>
   );
 }
