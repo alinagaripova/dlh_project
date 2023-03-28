@@ -21,7 +21,7 @@ body {
   }
   
   header {
-    background-color: white;
+    background: #F5F5F5;
   }
 
   footer {
@@ -89,10 +89,10 @@ code {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   body {
     header {
-      display: none;
+      background-color: white;
     }
   }
 }

@@ -31,7 +31,12 @@ const headerItems = [
 function Header() {
   return (
     <div className="container">
-      <div className="row d-flex justify-content-between align-items-center py-4">
+      <div className="header__logo d-md-none pt-2">
+        <Link to="/" className="header__logo d-md-none">
+          <Logo/>
+        </Link>
+      </div>
+      <div className="row d-none d-md-flex justify-content-between align-items-center py-4">
         <Link to="/" className="header__logo col-3">
           <Logo/>
         </Link>
