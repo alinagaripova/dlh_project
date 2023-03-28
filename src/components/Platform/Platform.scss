@@ -1,0 +1,15 @@
+.proccess {
+  img {
+    width: 343px;
+  }
+  margin-bottom: 52px;
+}
+
+@media (min-width: 768px) {
+  .proccess {
+    img {
+      width: 100%;
+    }
+    margin-bottom: 120px;
+  }
+}
