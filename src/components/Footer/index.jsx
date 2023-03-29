@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import ModalContext from '../../context/Modal/Context';
 import Logo from '../Logo';
 import Button from '../Button';
 import './Footer.scss';
 
 
 function Footer() {
+  const { displayModal } = useContext(ModalContext);
+
   return (
     <div className="container">
       <div className="footer d-flex flex-column justify-content-between align-items-start">
@@ -14,7 +17,7 @@ function Footer() {
             <Logo/>
           </Link>
           <div className="d-flex flex-column justify-content-between">
-            <Button text="request a demo" className="mb-3"/>
+            <Button text="request a demo" className="mb-3"  onClick={() => displayModal("request")}/>
             <div className="email">
               info@dlhlab.com
             </div>

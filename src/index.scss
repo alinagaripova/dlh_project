@@ -45,6 +45,9 @@ body {
     font-weight: 300;
     font-size: 22px;
   }
+  .modal-content {
+    overflow-y: auto;
+  }
 }
 
 body,.root,.App {

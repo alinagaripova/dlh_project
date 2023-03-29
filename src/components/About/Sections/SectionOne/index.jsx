@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext }  from 'react';
+import ModalContext from '../../../../context/Modal/Context';
 import Title from '../../../Title';
 import Button from '../../../Button';
 import time from "../../../../assets/images/time.png";
@@ -22,7 +23,9 @@ const advantages = [
   },
 ];
 
-function SectionOne({ children }) {
+function SectionOne() {
+  const { displayModal } = useContext(ModalContext);
+
   return (
     <div className="container">
       <div className="section-one d-flex justify-content-between align-items-center flex-column flex-md-row">
@@ -33,7 +36,7 @@ function SectionOne({ children }) {
           <div className="small-title">
             DLH lets you automate the whole data management lifecycle.
           </div>
-          <Button text="request a demo" />
+          <Button text="request a demo" onClick={() => displayModal("request")} />
           <div className="actions d-flex flex-wrap">
             {actions.map((item)=> (
               <div key={item} className="action">
