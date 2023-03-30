@@ -4,6 +4,13 @@
   width: 100%;
   padding: 20px 0 55px;
 
+  .social {
+    background-image: url('../../assets/images/linked-white.png');
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+  }
+
   .rights {
     font-size: 16px;
   }
@@ -25,6 +32,11 @@
 
     .email {
       text-align: end;
+    }
+
+    .social {
+      width: 36px;
+      height: 36px;
     }
   }
 }

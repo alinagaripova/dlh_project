@@ -16,11 +16,12 @@ function Footer() {
           <Link to="/" className="footer__logo mb-4">
             <Logo/>
           </Link>
-          <div className="d-flex flex-column justify-content-between">
+          <div className="d-flex flex-column justify-content-between align-items-md-end">
             <Button text="request a demo" className="mb-3"  onClick={() => displayModal("request")}/>
-            <div className="email">
+            <div className="email mb-2">
               info@dlhlab.com
             </div>
+            <a href="https://www.linkedin.com/company/dlhglobal/" className="social"> </a>
           </div>
        </div>
         <hr/>

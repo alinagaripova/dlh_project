@@ -1,0 +1,44 @@
+.modal-dialog {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  height: 100%;
+
+  .modal-content {
+    position: relative;
+    padding: 52px 16px;
+    width: 300px !important;
+
+    .nav-link {
+      margin-bottom: 18px;
+    }
+
+    .email {
+      position: absolute;
+      bottom: 52px;
+      left: 16px;
+    }
+
+    .social {
+      background-image: url('../../../assets/images/linked-black.png');
+      width: 24px;
+      height: 24px;
+      background-size: contain;
+      position: absolute;
+      bottom: 26px;
+      left: 16px;
+    }
+  }
+} 
+
+.burger-menu-list {
+  &__close {
+    width: 24px;
+    height: 24px;
+    background-image: url('../../../assets/images/close.png');
+    background-size: contain;
+    cursor: pointer;  
+  }
+}
