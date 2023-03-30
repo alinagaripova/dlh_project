@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react';
+import Modal from 'react-bootstrap/Modal';
 import ModalContext from '../../../context/Modal/Context';
 import Logo from '../../Logo';
 import FormRequest from './FormRequest';
@@ -25,15 +26,17 @@ function ModalRequest() {
   }
 
   return (
-    <div className="modal-request">
-      <div class="modal-request__header d-flex justify-content-between align-items-center mb-5">
-        <Logo />
-        <div className="modal-request__close" onClick={() => displayModal("request")}/>
+    <Modal show={modal?.isOpened} fullscreen={'sm-down'}>
+      <div className="modal-request">
+        <div class="modal-request__header d-flex justify-content-between align-items-center mb-5">
+          <Logo />
+          <div className="modal-request__close" onClick={() => displayModal("request")}/>
+        </div>
+        <div class="modal-request__body">
+          {renderBody()}
+        </div>
       </div>
-      <div class="modal-request__body">
-        {renderBody()}
-      </div>
-    </div>
+    </Modal>
   );
 }
 

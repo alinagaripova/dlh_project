@@ -1,11 +1,16 @@
 .modal-request {
   padding: 52px 16px;
+  background-image: url('../../../assets/images/background-modal.png');
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position-x: right;
 
   &__close {
     width: 24px;
     height: 24px;
     background-image: url('../../../assets/images/close.png');
     background-size: contain;
+    cursor: pointer;
   }
 
   form {
@@ -46,4 +51,33 @@
       background-size: 10px;
     }
   }
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+
+    .modal-request {
+      padding: 52px 110px 52px 56px;
+
+      &__body {
+        width: 90%;
+      }
+    }
+  } 
+}
+
+@media (min-width:992px){
+  .modal-dialog {
+    max-width: 900px !important;
+
+    .modal-request {
+      padding-right: 250pх;
+
+      &__body {
+        padding-right: 36px;
+      }
+    }
+  } 
 }
