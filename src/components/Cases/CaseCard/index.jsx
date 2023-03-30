@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './CaseCard.scss';
 
-
 function CaseCard( props ) {
-  const { image, title, task, url} = props;
+  const { image, title, task, id} = props;
+  const { pathname } = useLocation();
+
   return (
-    <Link to={url}className="case-card d-flex justify-content-between align-items-center mb-4">
+    <Link to={`${pathname}/${id}`} className="case-card d-flex justify-content-between align-items-center mb-4">
       <div className="case-card__image  me-4">
         <img src={image} alt={title} />
       </div>

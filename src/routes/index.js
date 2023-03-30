@@ -1,6 +1,7 @@
 import About from '../components/About';
 import Team from '../components/Team';
 import Cases from '../components/Cases';
+import Case from '../components/Cases/Case';
 import Platform from '../components/Platform';
 
 const routes = [
@@ -25,6 +26,12 @@ const routes = [
   {
     path: '/cases',
     component: Cases,
+    exact: true,
+    type: 'public',
+  },
+  {
+    path: '/cases/:caseId',
+    component: Case,
     exact: true,
     type: 'public',
   },

@@ -1,33 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 import Logo from '../Logo';
 import HeaderList from './HeaderList';
 import './Header.scss';
 
-const headerItems = [
-  {
-    title: "about DLH",
-    url: "/",
-  },
-  {
-    title: "platform",
-    url: "/platform",
-  },
-  {
-    title: "teams",
-    url: "/teams",
-  },
-  {
-    title: "cases",
-    url: "/cases",
-  },
-  {
-    title: "contact us",
-    url: "/",
-    hash: "#footer"
-  },
-]
 
 function Header() {
   return (

@@ -1,15 +1,10 @@
-.modal-dialog {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 0 !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  height: 100%;
+.offcanvas{
+  width: 300px !important;
 
-  .modal-content {
+  .burger-menu-list {
+    height: 100%;
     position: relative;
     padding: 52px 16px;
-    width: 300px !important;
 
     .nav-link {
       margin-bottom: 18px;
@@ -30,15 +25,18 @@
       bottom: 26px;
       left: 16px;
     }
-  }
-} 
 
-.burger-menu-list {
-  &__close {
-    width: 24px;
-    height: 24px;
-    background-image: url('../../../assets/images/close.png');
-    background-size: contain;
-    cursor: pointer;  
+    &__close {
+      width: 24px;
+      height: 24px;
+      background-image: url('../../../assets/images/close.png');
+      background-size: contain;
+      cursor: pointer;  
+    }
+  }
+
+  .modal-content {
+    width: 300px !important;
+
   }
 }
