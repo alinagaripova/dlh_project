@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.scss';
 
 
-function Button({ text, type, className, onClick }) {
+function Button({ text, type, className = "", onClick }) {
   let btnTypeClass;
   switch(type) {
     case 'outline':

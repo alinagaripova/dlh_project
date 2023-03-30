@@ -39,7 +39,7 @@ function SectionOne() {
           <Button text="request a demo" onClick={() => displayModal("request")} />
           <div className="actions d-flex flex-wrap">
             {actions.map((item)=> (
-              <div key={item} className="action">
+              <div key={item} className="action me-3 mb-2"> 
                 {item}
               </div>
             ))}
