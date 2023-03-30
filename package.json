@@ -1,7 +1,7 @@
 {
   "name": "dlh_project",
   "version": "0.1.0",
-  "homepage": "https://alinagaripova.github.io",
+  "homepage": "https://alinagaripova.github.io/dlh_project",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
