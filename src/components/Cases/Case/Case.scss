@@ -58,14 +58,41 @@
 
     &__second-part {
       display: flex;
+
+      .solutions {
+        flex: 1;
+      }
+      
+      .effects {
+        flex: 1 ;
+      }
     }
 
     .number {
+      width: 70px;
+      height: 70px;
       div {
+        width: 70px;
+        height: 70px;
+        padding: 17px;
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media (min-width:992px){
+  .case-page {
+    &__second-part {
+      .number {
         width: 100px;
         height: 100px;
-        padding: 29px;
-        font-size: 28px;
+        div {
+          width: 100px;
+          height: 100px;
+          padding: 29px;
+          font-size: 28px;
+        }
       }
     }
   }

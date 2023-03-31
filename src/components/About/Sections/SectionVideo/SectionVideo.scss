@@ -16,8 +16,12 @@
   }
   .video-text {
     flex-wrap: nowrap;
+    justify-content: space-around;
+    div {
+      flex: 1;
+    }
     &:first-child {
-      margin-right: 16px;
+      margin-right: 24px;
     }
   }
 }

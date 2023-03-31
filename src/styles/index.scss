@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700&display=swap');
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 body {
   margin: 0;
@@ -34,7 +34,7 @@ body {
     flex: 1 0 auto;
     background: #F5F5F5;
     padding-top: 24px;
-    background-image: url('./assets/images/background.png');
+    background-image: url('../assets/images/background.png');
     background-repeat: repeat-y;
     background-size: cover;
   }

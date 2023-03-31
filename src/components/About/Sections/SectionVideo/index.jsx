@@ -13,10 +13,10 @@ function SectionVideo() {
         <iframe width="100%" src="https://www.youtube.com/embed/rkjvxgk6gms?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div className="video-text d-flex justify-content-between aligh-items-center text-start px-4">
-        <div className="flex-grow-1 mb-2">
+        <div className="mb-2">
           DLH is built with open-source solutions so you can easily align its functionality with your business demands
         </div>
-        <div className="flex-grow-1">
+        <div className="">
           DLH is based in Russia so you are not risking to operate with no support
         </div>
       </div>

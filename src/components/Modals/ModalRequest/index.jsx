@@ -26,7 +26,7 @@ function ModalRequest() {
   }
 
   return (
-    <Modal show={modal?.isOpened} fullscreen={'sm-down'}>
+    <Modal show={modal?.isOpened} fullscreen={'sm-down'} onHide={() => displayModal("request")} >
       <div className="modal-request">
         <div class="modal-request__header d-flex justify-content-between align-items-center mb-5">
           <Logo />

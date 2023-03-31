@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Layout from '../../Layout';
 import Title from '../../Title';
 import Button from '../../Button';
@@ -49,7 +49,7 @@ function Case() {
           </div>
         </div>
         <div className="case-page__second-part">
-          <div className="solutions mb-4">
+          <div className="solutions mb-4 me-4">
             <div className="small-title">solution</div>
             {solutions.map((item, index) => {
               return (
@@ -64,7 +64,8 @@ function Case() {
           </div>
           <div className="effects mb-4">
             <div className="small-title">effects</div>
-            {solutions.map((item, index) => {
+            <div className="mb-2">{effects.desc}</div>
+            {effects.list.map((item, index) => {
               return (
                 <div key={item} className="effect row align-items-center mb-3">
                   <div className="col-3">
