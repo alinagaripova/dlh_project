@@ -51,6 +51,9 @@ body {
   .modal-content {
     overflow-y: auto;
   }
+  .text_blue {
+    color: #00ADEF;
+  }
 }
 
 body,.root,.App {
@@ -80,14 +83,6 @@ code {
   body {
     font-size: 22px;
 
-    .small-title {
-      font-weight: 300;
-      font-size: 28px;
-    }
-    main {
-      padding-top: 80px;
-    }
-
     .container-custom {
       margin-right: 0;
       margin-left: calc(50vw - 350px);
@@ -114,6 +109,15 @@ code {
 
 @media (min-width:1200px){
   body {
+    main {
+      padding-top: 80px;
+    }
+    
+    .small-title {
+      font-weight: 300;
+      font-size: 28px;
+    }
+
     .container-custom {
       margin-right: 0;
       margin-left: calc(50vw - 570px);

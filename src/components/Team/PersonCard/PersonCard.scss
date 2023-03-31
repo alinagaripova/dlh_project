@@ -29,8 +29,8 @@
   .person-card {
     &__image {
       order: 1;
-      height: 500px;
-      margin-right: 100px;
+      height: 330px;
+      margin-right: 50px;
     }
     &__description {
       order: 2;
@@ -41,7 +41,7 @@
       .person-card {
         &__description {
           order: 1;
-          margin-right: 100px;
+          margin-right: 50px;
         }
         &__image{
           order: 2;
@@ -56,9 +56,37 @@
           margin-right: 0;
         }
         &__image{
-          margin-right: 100px;
+          margin-right: 50px;
         }
       }
       }
   }  
+}
+
+@media (min-width: 1400px) {
+  .person-card {
+    &__image {
+      height: 450px;
+      margin-right: 100px;
+    }
+    &__description {
+      font-size: 28px;
+    }
+
+    &:nth-child(2n){
+      .person-card {
+        &__description {
+          margin-right: 100px;
+        }
+      }
+    }
+
+    &:nth-child(2n+1){
+      .person-card {
+        &__image{
+          margin-right: 100px;
+        }
+      }
+      }
+  }
 }

@@ -7,7 +7,7 @@ function CaseCard( props ) {
   const { pathname } = useLocation();
 
   return (
-    <Link to={`${pathname}/${id}`} className="case-card d-flex justify-content-between align-items-center mb-4">
+    <Link to={`/cases/${id}`} className="case-card d-flex justify-content-between align-items-center mb-4">
       <div className="case-card__image  me-4">
         <img src={image} alt={title} />
       </div>

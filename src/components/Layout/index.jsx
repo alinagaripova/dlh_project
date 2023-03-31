@@ -13,7 +13,7 @@ function Layout({ children }) {
         <header>
           <Header />
         </header>
-        <main className="pb-3 pb-md-5">
+        <main className="pb-3 pb-xl-5">
           {children}
         </main>
         <footer id={"footer"}>

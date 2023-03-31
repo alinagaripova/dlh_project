@@ -1,6 +1,7 @@
 import React, { useRef, useContext } from 'react';
 import ModalContext from '../../context/Modal/Context';
 import Button from '../Button';
+import Title from '../Title';
 import accordionData from '../../data/accordion';
 import './AccordionSlider.scss';
 
@@ -18,6 +19,7 @@ function AccordionSlider() {
 
   return (
     <div className="container">
+      <Title>solution for companies <span className="text_blue">handling huge amount of data</span></Title>
       <div className="slider" ref={sliderEl} >
         {accordionData.map(({ title, tabName, icon, description }, index) => {
           return (

@@ -13,7 +13,7 @@ function Cases() {
         <Title>
           cases
         </Title>
-        <div className="d-flex justify-content-between align-items-center flex-wrap flex-md-nowrap">
+        <div className="d-flex justify-content-between align-items-center flex-wrap flex-lg-nowrap">
           {cases.map((item) => (
             <CaseCard key={item.id} {...item} />
           ))}

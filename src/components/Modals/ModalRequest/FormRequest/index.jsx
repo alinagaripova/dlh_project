@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Form, Button } from 'react-bootstrap/';
 import { useForm } from '@formspree/react';
 
@@ -119,13 +120,19 @@ function FormRequest({ nextStep }) {
           />
         </Form.Group>
 
-        <Form.Check 
-          id="checkboxPrivacyPolicy"
-          type="checkbox"
-          name="checkboxPrivacyPolicy"
-          label={'i accept privacy policy'}
-          required
-        />
+        <Form.Group className="d-flex align-items-center privacy" controlId="formBasicPrivacyPolicy">
+          <Form.Check 
+            id="checkboxPrivacyPolicy"
+            type="checkbox"
+            name="checkboxPrivacyPolicy"
+            required
+          />        
+          <Form.Label column>
+            <Link to="privacy" target="_blank" rel="noopener noreferrer">i accept privacy policy</Link>
+          </Form.Label>
+          
+        </Form.Group>
+
         <Form.Control.Feedback type="invalid">please fill all the mandatory fields</Form.Control.Feedback>
           
         <Button type="submit" className="my-4">tell me about DLH</Button>

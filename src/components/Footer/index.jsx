@@ -18,15 +18,15 @@ function Footer() {
           </Link>
           <div className="d-flex flex-column justify-content-between align-items-md-end">
             <Button text="request a demo" className="mb-3"  onClick={() => displayModal("request")}/>
-            <div className="email mb-2">
+            <a href="mailto:someone@yoursite.com" target="_blank" rel="noopener noreferrer" className="email mb-2">
               info@dlhlab.com
-            </div>
+            </a>
             <a href="https://www.linkedin.com/company/dlhglobal/" className="social"> </a>
           </div>
        </div>
         <hr/>
         <div className="rights d-flex flex-column flex-md-row justify-content-between w-100">
-          <div className="mb-2">Privacy policy</div>
+          <Link className="mb-2" to="privacy" target="_blank" rel="noopener noreferrer">Privacy policy</Link>
           <div className="mb-2">Developed with assistance of IAF</div>
           <div>© 2023. All rights reserved</div>
         </div>

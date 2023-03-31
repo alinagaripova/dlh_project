@@ -31,7 +31,7 @@ const accordionData = [
     title: "make data-backed decisions",
     tabName: "data analyzer",
     icon: acc3,
-    description: "Module parses information and provides it in any format you need. With such representations company detects problems on earlier stage and may react in time",
+    description: "module parses information and provides it in any format you need. With such representations company detects problems on earlier stage and may react in time",
   },
 ]
 

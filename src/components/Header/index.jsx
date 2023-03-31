@@ -14,13 +14,13 @@ function Header() {
         </Link>
       </div>
       <div className="row d-none d-md-flex justify-content-between align-items-center py-4">
-        <Link to="/" className="header__logo col-3">
+        <Link to="/" className="header__logo col-2">
           <Logo/>
         </Link>
         <HeaderList />
-        <div className="col-2 ms-auto">
+        <a href="mailto:someone@yoursite.com" target="_blank" rel="noopener noreferrer"  className="email col-2 ms-5">
           info@dlhlab.com
-        </div>
+        </a>
       </div>
     </div>
   );

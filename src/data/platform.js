@@ -33,7 +33,7 @@ const platform = {
     {
       title: "hypothesizes",
       icon: option5,
-      description: "Forms data taxonomies and ontologies to optimize its management",
+      description: "forms data taxonomies and ontologies to optimize its management",
       place: "left"
     },
   ]

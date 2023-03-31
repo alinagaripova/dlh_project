@@ -13,10 +13,10 @@ function BurgerMenuList({ displayMenu }) {
             <Logo />
             <div className="burger-menu-list__close" onClick={displayMenu}/>
           </div>
-          <HeaderList />
-          <div className="email">
+          <HeaderList onHide={displayMenu} />
+          <a href="mailto:someone@yoursite.com" target="_blank" rel="noopener noreferrer" className="email">
             info@dlhlab.com
-          </div>
+          </a>
           <a href="https://www.linkedin.com/company/dlhglobal/" className="social"> </a>
         </div>
       </Offcanvas>

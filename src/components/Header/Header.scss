@@ -1,5 +1,11 @@
 .header {
+  .email {
+    cursor: pointer;
+  }
+  
   &__items {
+    flex: 1 0 auto !important;
+
     .nav-link {
       color: #333333;
     }
@@ -10,6 +16,15 @@
     }
     a {
       padding: 8px;
+    }
+  }
+}
+
+@media (min-width:1200px){
+  .header {
+
+    &__items {
+      padding: 0 100px !important;
     }
   }
 }

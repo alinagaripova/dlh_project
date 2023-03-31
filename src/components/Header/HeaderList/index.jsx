@@ -26,19 +26,19 @@ const headerItems = [
   },
 ]
 
-function HeaderList() {
+function HeaderList({onHide}) {
   return (
     <div className="header__items nav col-5 d-flex justify-content-between align-items-center">
       {headerItems.map(({ title, url, hash }) => {
         if(hash){
           return (
-          <HashLink to={`${url}${hash}`} className="nav-link" key={title}>
+          <HashLink to={`${url}${hash}`} className="nav-link" key={title} onClick={onHide}>
             {title}
           </HashLink>
           );
         } else {
           return (
-            <Link to={url} className="nav-link" key={title}>
+            <Link to={url} className="nav-link" key={title} onClick={onHide}>
               {title}
             </Link> 
           )
