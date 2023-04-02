@@ -26,19 +26,20 @@ const cases = [
     id: 2,
     title: "kazan state technical university",
     image: kai,
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nihil qui unde architecto consequuntur temporibus odio fugiat, repellat ullam excepturi optio ipsam non esse voluptate saepe doloribus modi dignissimos reprehenderit.",
-    task: "lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nihil qui unde architecto consequuntur temporibus odio fugiat, repellat ullam excepturi optio ipsam non esse voluptate saepe doloribus modi dignissimos reprehenderit.",
+    description: "Kazan State Technical University named after A.N. Tupolev",
+    task: "creating prototype of KAI DATA system. Platform goal is to collect and store data and provide access to aircraft industry data",
     solutions: [
-      "ipsum dolor sit amet consectetur adipisicing elit.",
-      "am nihil qui unde architecto consequunt"
+      "create a single point of assembly for the aircraft industry cluster",
+      "develop information support for the activities of the startup studio of Technopark KAI and other similar elements of the development infrastructure",
+      "enable real-time data-driven management and modeling of industry development",
+      "create the necessary conditions for implementing a digital twin of the aerospace industry"
     ],
     effects: {
       desc: "implemented and deployed",
       list: [
-        "DLH.Data Catalog",
-        "DLH.Model Optimizer",
-        "DLH.Data Analyzer",
-        "Camunda BPM"
+        "DLH.Data Catalog prototype",
+        "DLH.Model Optimizer prototype",
+        "obtained a grant from Yandex.Cloud",
       ]
     },
     company_site: "https://kai.ru/",

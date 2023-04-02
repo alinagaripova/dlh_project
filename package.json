@@ -1,7 +1,6 @@
 {
   "name": "dlh_project",
   "version": "0.1.0",
-  "homepage": "https://alinagaripova.github.io/dlh_project",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
@@ -12,11 +11,11 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-double-marquee": "^1.1.0",
     "react-router-dom": "^6.9.0",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "sass": "^1.59.3",
-    "swiper": "^9.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

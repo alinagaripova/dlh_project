@@ -11,7 +11,7 @@ const accordionData = [
   },
   {
     title: "promptly provides needed data representation",
-    tabName: "UI data pipline full",
+    tabName: "dataflows manager",
     icon: acc2,
     description: "fastly generates various types of reports and visualizes data in different formats as per consumer requirements",
   },

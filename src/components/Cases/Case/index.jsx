@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Layout from '../../Layout';
 import Title from '../../Title';
@@ -18,6 +18,10 @@ const Count = ({count, className =""}) => {
 
 function Case() {
   let { caseId } = useParams();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
 
   const currentCase = cases.find(item => item.id === Number(caseId));
   const { title, image, description, task, solutions, effects, company_site } = currentCase;
