@@ -10,6 +10,15 @@ import Modals from '../Modals';
 function Layout({ children, title = "" }) {
   const APP_NAME = "DLH";
 
+  const setHeight = () => {
+    document.getElementById("body").style.height = window.innerHeight + "px";
+  };
+  let deviceWidth = window.matchMedia("(max-width: 768px)");
+  if (deviceWidth.matches) {
+    window.addEventListener("resize", setHeight);
+    setHeight();
+  }
+
   return (
     <ModalProvider>
       <div>
