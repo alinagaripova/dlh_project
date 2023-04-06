@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dlh_project/static/css/main.6b9313ae.css",
-    "main.js": "/dlh_project/static/js/main.fdf8af19.js",
+    "main.css": "/dlh_project/static/css/main.020e0d27.css",
+    "main.js": "/dlh_project/static/js/main.e0c58a2b.js",
     "static/media/proccess-des.png": "/dlh_project/static/media/proccess-des.6a83472142138de90c75.png",
     "static/media/goalsDes.png": "/dlh_project/static/media/goalsDes.78293dad32b4116eb5f3.png",
     "static/media/person1.png": "/dlh_project/static/media/person1.158e8884570f5c9f9115.png",
@@ -29,11 +29,11 @@
     "static/media/kai.png": "/dlh_project/static/media/kai.bf6f178d214b136c670b.png",
     "static/media/hadoop.png": "/dlh_project/static/media/hadoop.c120fbcfa8bd47411f33.png",
     "index.html": "/dlh_project/index.html",
-    "main.6b9313ae.css.map": "/dlh_project/static/css/main.6b9313ae.css.map",
-    "main.fdf8af19.js.map": "/dlh_project/static/js/main.fdf8af19.js.map"
+    "main.020e0d27.css.map": "/dlh_project/static/css/main.020e0d27.css.map",
+    "main.e0c58a2b.js.map": "/dlh_project/static/js/main.e0c58a2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b9313ae.css",
-    "static/js/main.fdf8af19.js"
+    "static/css/main.020e0d27.css",
+    "static/js/main.e0c58a2b.js"
   ]
 }
