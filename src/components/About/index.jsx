@@ -10,7 +10,7 @@ import './About.scss';
 
 function About() {
   return (
-    <Layout>
+    <Layout title={"about"} >
       <div className="about-page">
         <SectionOne />
         <SectionVideo />

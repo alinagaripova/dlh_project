@@ -11,7 +11,7 @@ import './Platform.scss';
 
 function Platform() {
   return (
-    <Layout>
+    <Layout title={"platform"} >
       <div className="platform-page container">
         <Title>
           DLH integrates with any system inside your IT Landscape

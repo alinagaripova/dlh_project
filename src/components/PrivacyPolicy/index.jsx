@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Layout from '../Layout';
 
 function PrivacyPolicyPage() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
+
   return (
     <Layout>
       <div className={'container'}>

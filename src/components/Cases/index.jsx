@@ -8,7 +8,7 @@ import './Cases.scss';
 
 function Cases() {
   return (
-    <Layout>
+    <Layout title={"cases"} >
       <div className="cases-page container">
         <Title>
           cases

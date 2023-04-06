@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import ModalProvider from '../../context/Modal/Provider';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -6,10 +7,15 @@ import BurgerMenu from '../BurgerMenu';
 import Modals from '../Modals';
 
 
-function Layout({ children }) {
+function Layout({ children, title = "" }) {
+  const APP_NAME = "DLH";
+
   return (
     <ModalProvider>
       <div>
+        <Helmet>
+          <title>{[ APP_NAME, title ].filter(Boolean).join(' | ')}</title>
+        </Helmet>
         <header>
           <Header />
         </header>

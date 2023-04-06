@@ -29,7 +29,7 @@ function Case() {
   console.log(currentCase)
 
   return (
-    <Layout>
+    <Layout title={title} >
       <div className="case-page container">
         <Title>
           {title}

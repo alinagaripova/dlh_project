@@ -6,7 +6,7 @@ import './Team.scss';
 
 function Team() {
   return (
-    <Layout>
+    <Layout title={"teams"} >
       <div className="team-page container">
         <Title>
           we are united with our passion to create innovative and complicated products
