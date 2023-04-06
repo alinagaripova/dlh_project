@@ -12,7 +12,7 @@ function Layout({ children, title = "" }) {
 
   useEffect(() => {
     const setHeight = () => {
-      document.getElementById("body").style.height = window.innerHeight + "px";
+      document.body.style.height = window.innerHeight + "px";
     };
     let deviceWidth = window.matchMedia("(max-width: 768px)");
     if (deviceWidth.matches) {
