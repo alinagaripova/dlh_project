@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from "react-helmet";
 import ModalProvider from '../../context/Modal/Provider';
 import Header from '../Header';
@@ -10,14 +10,16 @@ import Modals from '../Modals';
 function Layout({ children, title = "" }) {
   const APP_NAME = "DLH";
 
-  const setHeight = () => {
-    document.getElementById("body").style.height = window.innerHeight + "px";
-  };
-  let deviceWidth = window.matchMedia("(max-width: 768px)");
-  if (deviceWidth.matches) {
-    window.addEventListener("resize", setHeight);
-    setHeight();
-  }
+  // useEffect(() => {
+    // const setHeight = () => {
+    //   document.getElementById("body").style.height = window.innerHeight + "px";
+    // };
+    // let deviceWidth = window.matchMedia("(max-width: 768px)");
+    // if (deviceWidth.matches) {
+    //   window.addEventListener("resize", setHeight);
+    //   setHeight();
+    // }
+  // }, []);
 
   return (
     <ModalProvider>
