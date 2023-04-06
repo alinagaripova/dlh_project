@@ -37,9 +37,9 @@ function SectionOne() {
             DLH lets you automate the whole data management lifecycle.
           </div>
           <Button text="request a demo" onClick={() => displayModal("request")} />
-          <div className="actions d-flex flex-wrap">
+          <div className="actions d-flex flex-nowrap">
             {actions.map((item)=> (
-              <div key={item} className="action me-3 mb-2"> 
+              <div key={item} className="action me-2 mb-2"> 
                 {item}
               </div>
             ))}

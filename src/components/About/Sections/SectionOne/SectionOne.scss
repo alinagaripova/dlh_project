@@ -21,7 +21,7 @@
   }
   .actions {
     .action {
-      padding: 10px 20px;
+      padding: 10px 10px;
       position: relative;
 
       &::before {
@@ -65,13 +65,14 @@
     &__text-part {
       width: 50%;
     }
-  }
-  
-  .actions {
-    .action {
-      padding: 12px 20px;
+
+    .actions {
+      .action {
+        padding: 12px 20px;
+      }
     }
   }
+  
 
   .advantages {
     .advantage {

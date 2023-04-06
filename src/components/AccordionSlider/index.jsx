@@ -19,7 +19,7 @@ function AccordionSlider() {
 
   return (
     <div className="container">
-      <Title>solution for companies <span className="text_blue">handling huge amount of data</span></Title>
+      <Title>we deploy DLH in whole or by specific modules based on business demands</Title>
       <div className="slider" ref={sliderEl} >
         {accordionData.map(({ title, tabName, icon, description }, index) => {
           return (

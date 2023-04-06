@@ -20,7 +20,7 @@ function Platform() {
         <Title>
           we automate data processing from collection to usage
         </Title>
-        <div className="proccess">
+        <div className="proccess px-md-5">
           <img className="d-md-none" src={proccess} alt="proccess" />
           <img className="d-none d-md-block" src={proccessBig} alt="proccess" />
         </div>
