@@ -26,8 +26,6 @@ function Case() {
   const currentCase = cases.find(item => item.id === Number(caseId));
   const { title, image, description, task, solutions, effects, company_site } = currentCase;
 
-  console.log(currentCase)
-
   return (
     <Layout title={title} >
       <div className="case-page container">

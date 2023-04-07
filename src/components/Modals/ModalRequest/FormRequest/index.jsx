@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Form, Button } from 'react-bootstrap/';
 import { useForm } from '@formspree/react';
 
@@ -129,7 +128,7 @@ function FormRequest({ nextStep }) {
             required
           />        
           <Form.Label column>
-            <Link to="privacy" target="_blank" rel="noopener noreferrer">i accept privacy policy</Link>
+            <a href={`${window.location.origin}/privacy`} target="_blank" rel="noopener noreferrer">i accept privacy policy</a>
           </Form.Label>
           
         </Form.Group>
