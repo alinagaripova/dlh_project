@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dlh_project/static/css/main.6f94ca1b.css",
-    "main.js": "/dlh_project/static/js/main.9ad5d249.js",
+    "main.js": "/dlh_project/static/js/main.c13f73c1.js",
     "static/media/proccess-des.png": "/dlh_project/static/media/proccess-des.6a83472142138de90c75.png",
     "static/media/goalsDes.png": "/dlh_project/static/media/goalsDes.78293dad32b4116eb5f3.png",
     "static/media/person1.png": "/dlh_project/static/media/person1.158e8884570f5c9f9115.png",
@@ -30,10 +30,10 @@
     "static/media/hadoop.png": "/dlh_project/static/media/hadoop.c120fbcfa8bd47411f33.png",
     "index.html": "/dlh_project/index.html",
     "main.6f94ca1b.css.map": "/dlh_project/static/css/main.6f94ca1b.css.map",
-    "main.9ad5d249.js.map": "/dlh_project/static/js/main.9ad5d249.js.map"
+    "main.c13f73c1.js.map": "/dlh_project/static/js/main.c13f73c1.js.map"
   },
   "entrypoints": [
     "static/css/main.6f94ca1b.css",
-    "static/js/main.9ad5d249.js"
+    "static/js/main.c13f73c1.js"
   ]
 }
