@@ -53,6 +53,12 @@
   }
 }
 
+.fade {
+  .modal-dialog {
+    transform: translate(0) !important;
+  }
+}
+
 @media (min-width: 768px) {
   .modal-dialog {
     margin-right: 0 !important;

@@ -5,7 +5,6 @@ import Logo from '../../Logo';
 import './BurgerMenuList.scss';
 
 function BurgerMenuList({ displayMenu }) {
-
   return (
       <Offcanvas show={true} placement={'end'} name={'end'} onHide={displayMenu}>
         <div className="burger-menu-list">
