@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dlh_project/static/css/main.6f94ca1b.css",
-    "main.js": "/dlh_project/static/js/main.c13f73c1.js",
-    "static/media/proccess-des.png": "/dlh_project/static/media/proccess-des.6a83472142138de90c75.png",
+    "main.css": "/dlh_project/static/css/main.9202bfcd.css",
+    "main.js": "/dlh_project/static/js/main.bf33f4a0.js",
+    "static/media/proccess-big.png": "/dlh_project/static/media/proccess-big.3118067810d821e042c4.png",
     "static/media/goalsDes.png": "/dlh_project/static/media/goalsDes.78293dad32b4116eb5f3.png",
     "static/media/person1.png": "/dlh_project/static/media/person1.158e8884570f5c9f9115.png",
     "static/media/acc3.png": "/dlh_project/static/media/acc3.d8b1bf1308b7e3ee756b.png",
@@ -10,10 +10,10 @@
     "static/media/person5.png": "/dlh_project/static/media/person5.ab94ccde1a37a9489c1b.png",
     "static/media/person4.png": "/dlh_project/static/media/person4.b6a393e573bf3f16ecd0.png",
     "static/media/person3.png": "/dlh_project/static/media/person3.5e57094c95cdf373d53c.png",
-    "static/media/computer.png": "/dlh_project/static/media/computer.a61ddb18d89e0ead5540.png",
     "static/media/goals.png": "/dlh_project/static/media/goals.1daa637e6deeae6bb8a4.png",
     "static/media/proccess.png": "/dlh_project/static/media/proccess.a8e541ce99b46b0084eb.png",
     "static/media/background.png": "/dlh_project/static/media/background.20a6609a3b4ffb20d1c6.png",
+    "static/media/computer.png": "/dlh_project/static/media/computer.5e819b7c813aeb3b42ad.png",
     "static/media/option3.png": "/dlh_project/static/media/option3.33a4b46d75d4daa9e259.png",
     "static/media/option1.png": "/dlh_project/static/media/option1.7d134728cda21d743e16.png",
     "static/media/option5.png": "/dlh_project/static/media/option5.374df83dda48d85f41a4.png",
@@ -29,11 +29,11 @@
     "static/media/kai.png": "/dlh_project/static/media/kai.bf6f178d214b136c670b.png",
     "static/media/hadoop.png": "/dlh_project/static/media/hadoop.c120fbcfa8bd47411f33.png",
     "index.html": "/dlh_project/index.html",
-    "main.6f94ca1b.css.map": "/dlh_project/static/css/main.6f94ca1b.css.map",
-    "main.c13f73c1.js.map": "/dlh_project/static/js/main.c13f73c1.js.map"
+    "main.9202bfcd.css.map": "/dlh_project/static/css/main.9202bfcd.css.map",
+    "main.bf33f4a0.js.map": "/dlh_project/static/js/main.bf33f4a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f94ca1b.css",
-    "static/js/main.c13f73c1.js"
+    "static/css/main.9202bfcd.css",
+    "static/js/main.bf33f4a0.js"
   ]
 }
