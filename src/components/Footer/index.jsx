@@ -34,7 +34,7 @@ function Footer() {
        </div>
         <hr/>
         <div className="rights d-flex flex-column flex-md-row justify-content-between w-100">
-          <div onClick={() => window.open(`${window.location.origin}/privacy`, '_blank', 'noopener,noreferrer')} className="mb-2">Privacy policy</div>
+          <a href={`${window.location.origin}/privacy`} className="mb-2" to="privacy" target="_blank" rel="noopener noreferrer" >Privacy policy</a>
           <div className="mb-2">Developed with assistance of IAF</div>
           <div>© 2023. All rights reserved</div>
         </div>
