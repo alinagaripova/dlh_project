@@ -1,19 +1,48 @@
 .video {
   iframe {
     height: auto;
-    border-radius: 20px;
   }
 }
 .video-text {
   flex-wrap: wrap;
 }
 
+.video-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-picture {
+  cursor: pointer;
+  img {
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid #00ADEF;
+    border-radius: 30px;
+  }
+}
+
 @media (min-width: 768px) {
   .video {
+    height: 400px;
+
     iframe {
-      height: 500px;
+      height: 100%;
     }
   }
+
+  .video-picture {
+    height: 550px;
+    width: 80%;
+    img {
+      height: 100%;
+      object-fit: contain;
+      border: 1px solid #00ADEF;
+      border-radius: 30px;
+    }
+  }
+
   .video-text {
     flex-wrap: nowrap;
     justify-content: space-around;

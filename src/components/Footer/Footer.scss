@@ -30,7 +30,16 @@
       width: 120px;
     }
 
+    .contact {
+      font-weight: 400;
+    }
+
+    .request {
+      width: fit-content;
+    }
+
     .email {
+      font-size: 18px;
       text-align: end;
       cursor: pointer;
     }
@@ -41,6 +50,10 @@
     }
     .rights {
       font-size: 16px;
+    }
+    .address {
+      font-size: 18px;
+      text-align: end;
     }
   }
 }

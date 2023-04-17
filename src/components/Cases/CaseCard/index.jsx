@@ -15,7 +15,7 @@ function CaseCard( props ) {
           {title}
         </div>
         <div className="case-card__content_desc">
-          {task.substr(1, 56)}...
+          {task.substr(0, 56)}...
         </div>
       </div>
     </Link>

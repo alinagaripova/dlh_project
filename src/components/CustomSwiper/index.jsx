@@ -10,7 +10,7 @@ function CustomSwiper({iconsList}) {
         <Marquee direction="left" gradient={false} >
           <div className="d-flex">
             {iconsList.map(({ img }) => (
-              <div className="swiper-custom-element me-3">
+              <div className="swiper-custom-element me-3 me-md-5">
                 <img className="swiper-icon" src={img} alt="" />
               </div>
             ))}

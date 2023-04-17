@@ -67,26 +67,13 @@ code {
 
 @media (max-width:576px){
   .container-custom {
-    margin-right: 0;
-    margin-left: calc(50vw - 185px);
-  }
- }
-
-@media (min-width:576px){
-  .container-custom {
-    margin-right: 0;
-    margin-left: calc(50vw - 270px);
+    margin: 0;
   }
  }
  
  @media (min-width: 768px) {
   body {
     font-size: 22px;
-
-    .container-custom {
-      margin-right: 0;
-      margin-left: calc(50vw - 350px);
-    }
   }
 }
 
@@ -94,15 +81,6 @@ code {
   body {
     header {
       background-color: white;
-    }
-  }
-}
-
-@media (min-width:992px){
-  body {
-    .container-custom {
-      margin-right: 0;
-      margin-left: calc(50vw - 480px);
     }
   }
 }
@@ -116,20 +94,6 @@ code {
     .small-title {
       font-weight: 300;
       font-size: 28px;
-    }
-
-    .container-custom {
-      margin-right: 0;
-      margin-left: calc(50vw - 570px);
-    }
-  }
-}
-
-@media (min-width:1400px){
-  body {
-    .container-custom {
-      margin-right: 0;
-      margin-left: calc(50vw - 650px);
     }
   }
 }

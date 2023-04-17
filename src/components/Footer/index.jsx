@@ -12,24 +12,22 @@ function Footer() {
   return (
     <div className="container">
       <div className="footer d-flex flex-column justify-content-between align-items-start">
-       <div className="d-flex flex-column flex-md-row justify-content-between w-100">
-          <div className="d-flex flex-column justify-content-between align-items-md-start">
+       <div className="d-flex flex-column flex-md-row justify-content-between align-items-start w-100 row-md">
+          <div className="d-flex flex-column justify-content-between align-items-md-start col-md-4 ">
             <Link to="/" className="footer__logo mb-3">
               <Logo/>
             </Link>
-            <div className="footer__logo mb-2 d-none d-md-block">
-              228 Park Ave S, Pmb 85451,<br/> New York, NY 10003,<br/> United States
-            </div>
           </div>
-          <div className="d-flex flex-column justify-content-between align-items-md-end">
-            <Button text="request a demo" className="mb-3"  onClick={() => displayModal("request")}/>
-            <div className="footer__logo mb-2 d-md-none">
-              228 Park Ave S, Pmb 85451,<br/> New York, NY 10003, United States
-            </div>
-            <a href="mailto:someone@yoursite.com" target="_blank" rel="noopener noreferrer" className="email mb-2">
+          <Button text="request a demo" className="request mb-3 col-md-4"  onClick={() => displayModal("request")}/>
+          <div className="d-flex flex-column justify-content-between align-items-md-end col-md-4">
+            <div className="contact d-none d-md-block small-title mb-3">contact us</div>
+            <a href="mailto:someone@yoursite.com" target="_blank" rel="noopener noreferrer" className="email">
               info@dlhlab.com
             </a>
             <a href="https://www.linkedin.com/company/dlhglobal/" className="social"> </a>
+            <div className="address mb-2">
+              228 Park Ave S, Pmb 85451,<br/> New York, NY 10003, United States
+            </div>
           </div>
        </div>
         <hr/>
