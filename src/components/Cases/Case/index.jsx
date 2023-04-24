@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Layout from '../../Layout';
 import Title from '../../Title';
-import Button from '../../Button';
 import cases from '../../../data/cases';
 import './Case.scss';
 
@@ -24,7 +23,7 @@ function Case() {
   }, []);
 
   const currentCase = cases.find(item => item.id === Number(caseId));
-  const { title, image, description, task, solutions, effects, company_site } = currentCase;
+  const { title, image, description, task, solutions, effects } = currentCase;
 
   return (
     <Layout title={title} >
@@ -32,13 +31,10 @@ function Case() {
         <Title>
           {title}
         </Title>
-        <div className="case-page__first-part row">
+        <div className="case-page__first-part">
           <div className="image mb-4 col">
             <img src={image} alt={title} />
           </div>
-          <a href={company_site} target="_blank" rel="noreferrer" className={"d-md-none mb-4"}>
-            <Button text="web site" /> 
-          </a>
           <div className="desc col">
             <div className="description mb-4">
               <div className="small-title">company description</div>

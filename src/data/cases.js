@@ -1,5 +1,5 @@
-import rim from "../assets/images/cases/rim.png"
-import kai from "../assets/images/cases/kai.png"
+import rim from "../assets/images/cases/media.png"
+import kai from "../assets/images/cases/university.png"
 const cases = [
   {
     id: 1,
@@ -20,7 +20,6 @@ const cases = [
         "Camunda BPM"
       ]
     },
-    company_site: "https://rim-group.ru/",
   },
   {
     id: 2,
@@ -42,7 +41,6 @@ const cases = [
         "obtained a grant from Yandex.Cloud",
       ]
     },
-    company_site: "https://kai.ru/",
   },
 ];
 

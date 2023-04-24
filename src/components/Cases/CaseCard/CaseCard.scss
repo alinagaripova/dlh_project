@@ -6,9 +6,10 @@
 
   &__image {
     width: 50%;
-
+    height: 100%;
     img {
       width: 100%;
+      height: 100%;
       object-fit: contain;
     }
   }
@@ -18,6 +19,9 @@
       font-weight: 300 !important;
       color: #00ADEF;
     }
+    &_desc{
+      font-size: 14px;
+    }
   }
 }
 
@@ -26,6 +30,12 @@
     width: calc(100% - 24px) !important;
     padding: 28px;
     height: 226px;
+
+    &__content {
+      &_desc{
+        font-size: 18px;
+      }
+    }
 
     &:nth-child(odd){
       margin-right: 24px;

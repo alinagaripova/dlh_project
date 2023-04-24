@@ -12,8 +12,8 @@ const headerItems = [
     url: "/platform",
   },
   {
-    title: "teams",
-    url: "/teams",
+    title: "team",
+    url: "/team",
   },
   {
     title: "cases",
@@ -28,7 +28,7 @@ const headerItems = [
 
 function HeaderList({onHide}) {
   return (
-    <div className="header__items nav col-5 d-flex justify-content-between align-items-center">
+    <div className="header__items nav col-5 d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
       {headerItems.map(({ title, url, hash }) => {
         if(hash){
           return (

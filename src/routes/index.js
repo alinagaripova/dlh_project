@@ -19,7 +19,7 @@ const routes = [
     type: 'public',
   },
   {
-    path: '/teams',
+    path: '/team',
     component: Team,
     exact: true,
     type: 'public',
