@@ -15,25 +15,25 @@ const team = [
     image: person2,
     name: "Alexander Korneev",
     job_title: "CBDO & Investors relations ",
-    text: "Over 10 years of media asset management experience. Ex Head of International Development VK (ex. Mail.ru Group). Launched 3 startups & successful exits",
+    text: "Over 10 years of media asset management experience. Ex  Interactive brokers, Ex Head of International Development major IT-company (53,3 mln DAU). Launched 3 startups & successful exits",
   },
   {
     image: person3,
     name: "Azat Yakupov",
     job_title: "CDO",
-    text: "Head of scientific laboratory DataLab. More than 20 years of experience in IT in working with data. Landmark projects: Moscow Exchange, Analytical Center",
+    text: "Head of scientific laboratory DataLab. More than 20 years of experience in IT in working with data. Landmark projects: Major regional Exchange, Analytical Center",
   },
   {
     image: person4,
     name: "Ilyas Mukhamadulin",
     job_title: "CPO",
-    text: "More than 10 years of experience in IT: architect, product owner, Lead business analyst at EPAM, Chief architect of AK Bars Digital Technologies",
+    text: "More than 10 years of experience in IT: architect, product owner, Lead business analyst at EPAM, Chief architect of Bank Digital Technologies (3,1 mln consumers)",
   },
   {
     image: person5,
     name: "Igor Dubov",
     job_title: "CMO",
-    text: "Implemented more than 50 marketing projects in international companies, 10 in IT and startups. Landmark projects: ER-Telecom, 1C, Kontur, Renova Group, Loveit (PIK Group), Ak Bars Bank, BMW, Audi, Rostelecom, Schulstad",
+    text: "Implemented more than 50 marketing projects in international companies, 10 in IT and startups. Landmark projects: BMW, Audi,  Schulstad, Major regional telecom (3,83 mln households), Major regional Bank (3,1 mln consumers)",
   },
 ]
 

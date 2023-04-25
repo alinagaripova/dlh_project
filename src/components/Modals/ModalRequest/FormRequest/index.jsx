@@ -87,13 +87,12 @@ function FormRequest({ nextStep }) {
         </Form.Group> 
 
         <Form.Group className="mb-3" controlId="formBasicMobile">
-          <Form.Label>mobile*</Form.Label>
+          <Form.Label>mobile</Form.Label>
           <Form.Control
             id="mobile"
             type="number"
             name="mobile"
-            placeholder="mobile*"
-            required
+            placeholder="mobile"
           />
           <Form.Control.Feedback type="invalid">please fill all the mandatory fields</Form.Control.Feedback>
         </Form.Group>
