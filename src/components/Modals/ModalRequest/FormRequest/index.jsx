@@ -5,7 +5,7 @@ import { useForm } from '@formspree/react';
 function FormRequest({ nextStep }) {
   const [validated, setValidated] = useState(false);
   // eslint-disable-next-line no-unused-vars
-  const [state, handleSubmit] = useForm("xdovlwdq");
+  const [state, handleSubmit] = useForm("mwkjrgbq");
 
   const submitForm = (event) => {
     event.preventDefault();
@@ -35,7 +35,6 @@ function FormRequest({ nextStep }) {
             id="firstName"
             type="text"
             name="firstName"
-            placeholder="first name*"
             required
           />
           <Form.Control.Feedback type="invalid">please fill all the mandatory fields</Form.Control.Feedback>
@@ -46,7 +45,6 @@ function FormRequest({ nextStep }) {
             id="lastName"
             type="text"
             name="lastName"
-            placeholder="last name*"
             required
           />
           <Form.Control.Feedback type="invalid">please fill all the mandatory fields</Form.Control.Feedback>
@@ -57,7 +55,6 @@ function FormRequest({ nextStep }) {
             id="companyName"
             type="text"
             name="companyName"
-            placeholder="company name*"
             required
           />
           <Form.Control.Feedback type="invalid">please fill all the mandatory fields</Form.Control.Feedback>
@@ -68,7 +65,6 @@ function FormRequest({ nextStep }) {
             id="companyScope"
             type="text"
             name="companyScope"
-            placeholder="company scope*"
             required
           />
           <Form.Control.Feedback type="invalid">please fill all the mandatory fields</Form.Control.Feedback>
@@ -80,7 +76,6 @@ function FormRequest({ nextStep }) {
             id="yourRole"
             type="text"
             name="yourRole"
-            placeholder="your role*"
             required
           />
           <Form.Control.Feedback type="invalid">please fill all the mandatory fields</Form.Control.Feedback>
@@ -92,7 +87,6 @@ function FormRequest({ nextStep }) {
             id="mobile"
             type="number"
             name="mobile"
-            placeholder="mobile"
           />
           <Form.Control.Feedback type="invalid">please fill all the mandatory fields</Form.Control.Feedback>
         </Form.Group>
@@ -103,7 +97,6 @@ function FormRequest({ nextStep }) {
             id="businessEmail"
             type="email"
             name="businessEmail"
-            placeholder="business e-mail*"
             required
           />
           <Form.Control.Feedback type="invalid">please fill all the mandatory fields</Form.Control.Feedback>
@@ -115,7 +108,6 @@ function FormRequest({ nextStep }) {
             id="additional"
             type="text"
             name="additional"
-            placeholder="enter any additional comments"
           />
         </Form.Group>
 

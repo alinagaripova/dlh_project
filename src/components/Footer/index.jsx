@@ -26,7 +26,7 @@ function Footer() {
             </a>
             <a href="https://www.linkedin.com/company/dlhglobal/" className="social"> </a>
             <div className="address mb-2">
-              228 Park Ave S, Pmb 85451,<br/> New York, NY 10003, United States
+              1201 N.Orange Street, Wilmington, <br/> New Castle, United States <br/> 19801-1186, DLH Global INC
             </div>
           </div>
        </div>
@@ -34,7 +34,7 @@ function Footer() {
         <div className="rights d-flex flex-column flex-md-row justify-content-between w-100">
           <a href={`${window.location.origin}/privacy`} className="mb-2" to="privacy" target="_blank" rel="noopener noreferrer" >Privacy policy</a>
           <div className="mb-2">Developed with assistance of IAF</div>
-          <div>© 2023. All rights reserved</div>
+          <div>© 2023. DLH Global INC. All rights reserved</div>
         </div>
       </div>
     </div>
