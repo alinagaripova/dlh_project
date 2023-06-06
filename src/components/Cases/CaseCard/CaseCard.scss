@@ -30,6 +30,7 @@
     width: calc(100% - 24px) !important;
     padding: 28px;
     height: 226px;
+    margin-right: 24px;
 
     &__content {
       &_desc{
@@ -37,8 +38,8 @@
       }
     }
 
-    &:nth-child(odd){
-      margin-right: 24px;
+    &:last-child {
+      margin-right: 0;
     }
   }
 }

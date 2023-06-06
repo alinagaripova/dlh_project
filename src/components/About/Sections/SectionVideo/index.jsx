@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Title from '../../../Title';
 import videoPreview from '../../../../assets/images/video-preview.png';

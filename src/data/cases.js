@@ -1,5 +1,7 @@
 import rim from "../assets/images/cases/media.png"
 import kai from "../assets/images/cases/university.png"
+import airplane from "../assets/images/cases/airplane.png"
+
 const cases = [
   {
     id: 1,
@@ -39,6 +41,28 @@ const cases = [
         "DLH.Data Catalog prototype",
         "DLH.Model Optimizer prototype",
         "obtained a grant from Yandex.Cloud",
+      ]
+    },
+  },
+  {
+    id: 3,
+    title: "airport",
+    image: airplane,
+    description: "airport (serving more than 28 million people a year)",
+    task: "10% reduction in flight delays (reducing the number of negative events at the airport). A negative event is any flight delay of more than 15 minutes",
+    solutions: [
+      "creatе a system for modeling negative events",
+      "creatе a correlation model for the parameters of negative events and their number",
+      "create negative event cards",
+      "create dashboards with visual display of dependencies"
+    ],
+    effects: {
+      desc: "implemented and deployed",
+      list: [
+        "aggregation of all 80+ parameters influencing negative events in one place (DWH)",
+        "reducing the impact of the human factor on flight delays",
+        "evaluation of event parameters for the number of negative outcomes",
+        "decrease in the time of investigation of negative events by 10 times",
       ]
     },
   },
