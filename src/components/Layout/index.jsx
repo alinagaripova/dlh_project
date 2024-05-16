@@ -25,7 +25,7 @@ function Layout({ children, title = "" }) {
     <ModalProvider>
       <div>
         <Helmet>
-          <title>{[ APP_NAME, title ].filter(Boolean).join(' | ')}</title>
+          <title>{[APP_NAME, title].filter(Boolean).join(' | ')}</title>
         </Helmet>
         <header>
           <Header />
@@ -34,7 +34,7 @@ function Layout({ children, title = "" }) {
           {children}
         </main>
         <footer id={"footer"}>
-          <Footer/>
+          <Footer />
         </footer>
         <BurgerMenu />
         <Modals />
